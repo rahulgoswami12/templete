@@ -1,0 +1,169 @@
+.navBar{
+    background-color: rgb(21, 40, 76);
+    height: 4rem;
+    }
+
+    .navLogo{
+        font-size: 1.8rem;
+        margin-top: .5rem;
+        color: white;
+        font-weight: bold;
+    }
+
+    .navLogo1{
+        font-weight: 100;
+    }
+    .notification {
+        position: relative;
+        display: inline-block;
+    }
+   
+
+    .notification {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+    }
+    .notification .badge {
+        margin-left: 10px;
+        color: white;
+        font-size: 1rem;
+    }
+    .notification .bi-caret-down-fill {
+        margin-left: 8px;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .itemNav{
+        color: white;
+        margin-right: 1rem;
+    }
+    .nav-span {
+        
+        margin: 0 0.5rem; 
+        padding: 0.25rem 0.5rem; 
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        color: white;
+    }
+
+   
+      .card-body {
+        overflow: hidden; /* Hide overflow content if necessary */
+        height: 40%; 
+      }
+      .card{
+        background-color: blue;
+      }
+      
+      .card-img-top {
+        max-height: 150px; /* Adjust the maximum height of the image */
+        object-fit: cover;
+      }
+.flex{
+  display: flex;
+  justify-content: space-between;
+  
+}
+      .fa-play {
+        background-color: rgba(107, 102, 102, 0.404); /* Grey with 50% opacity */
+        border-radius: 50%; /* Rounded shape */
+        padding: 10px; /* Adjust padding as needed */
+        margin-left: -20px;
+        transition: background-color 0.3s ease; /* Smooth transition on hover */
+      }
+      
+      .play-icon:hover {
+        background-color: rgba(244, 70, 70, 0.8); /* Darker grey on hover */
+      }
+      
+    .bg{
+        background-color: rgb(20, 20, 48);
+        padding-bottom: 30px;
+    }
+
+    .content {
+        padding: 20px;
+        color: white;
+      }
+  
+.left-right{
+    background: linear-gradient(to bottom, rgb(20, 20, 48), rgb(90, 90, 155));
+}
+
+      .last{
+        background: linear-gradient(to bottom, #31399b, rgba(149,109,181,255));
+        color: #fff;
+        margin: 0px;
+        padding: 0px;
+  
+      }
+      /* .navbar {
+        background-color: transparent;
+      } */
+      .navbar-brand {
+        font-weight: bold;
+      }
+      .headline {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      .cta-buttons {
+        margin-top: 20px;
+      }
+      .blue{
+        color: aqua;
+      }
+      .presentation-image {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 100%;
+        height: auto;
+        opacity: 0.8;
+        border: 10px solid #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .btn-pink-custom {
+        background: linear-gradient(to left, #bf37b1, #a239d3);
+        border-color: white;
+        color: #fff;
+      }
+      
+      .btn.btn-primary.btn-lg.btn-pink-custom {
+        border-radius: 30px;
+        background-color: #ff69b4; /* Example background color */
+        color: #ffffff; /* Example text color */
+        text-decoration: none; /* Remove underline from link */
+        display: inline-block; /* Ensure it behaves like a block element but respects padding */
+      }
+      
+      .btn.btn-primary.btn-lg.btn-pink-custom:hover {
+        background-color: #ff1493; /* Example background color on hover */
+        color: #ffffff; /* Example text color on hover */
+        border-color: #fdfbfc;
+      }
+      
+      /* .btn-blue-custom {
+        background-color: #add8e6;
+        border-color: #add8e6;
+        color: #fff;
+      } */
+      /* .btn-blue-custom:hover {
+        background-color: #87ceeb;
+        border-color: #87ceeb;
+      } */
+      footer {
+        background-color: #000;
+        color: #fff;
+        padding: 20px 0;
+ 
+  
+      }
+      footer .text-blue {
+        color: #007bff;
+      }
+  .l-btn{
+    margin-left: 10px;
+  }
